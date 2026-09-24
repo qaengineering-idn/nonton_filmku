@@ -1,13 +1,8 @@
 <?php
 
-namespace App\Models;
+namespace App\Http\Controllers;
 
-use Illuminate\Database\Eloquent\Model;
-
-class Order extends Model
+abstract class Controller
 {
-    protected $fillable = [
-        'item_name',
-        'is_served',
-    ];
+    //
 }
